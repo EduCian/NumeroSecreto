@@ -1,5 +1,5 @@
 let listaDeNumeroSorteado = [];
-let limiteLista = 100
+let limiteLista = 50
 let numeroSecreto = gerarNumero();
 console.log (numeroSecreto)
 let nTentativa = 1
