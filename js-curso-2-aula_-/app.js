@@ -14,7 +14,7 @@ let nTentativa = 1
 function exibirTexto (tag, texto) {
     let titulo = document.querySelector(tag);
     titulo.innerHTML = texto;
-    responsiveVoice.speak(texto, "Brazilian Portuguese Female", {rate:1.3})
+    responsiveVoice.speak(texto, "Brazilian Portuguese Female", {rate:1.2})
 }
 function textoInicial () {
     exibirTexto ("h1", "Bem Vindo ao jogo do numero secreto!");
